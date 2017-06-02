@@ -1,0 +1,13 @@
+{
+   "scope": "source.js",
+
+   "completions":
+   [
+      { "trigger": "we-CellsTitle", "contents": "<CellsTitle>$1</CellsTitle>" },
+      { "trigger": "we-Cells", "contents": "<Cells>$1</Cells>" },
+      { "trigger": "we-cell", "contents": "<Cell href=\"${1:javascript:;}\" ${2:access}>$3</Cell>" },
+      { "trigger": "we-CellHeader", "contents": "<CellHeader>$1</CellHeader>" },
+      { "trigger": "we-CellBody", "contents": "<CellBody>$1</CellBody>" },
+      { "trigger": "we-CellFooter", "contents": "<CellFooter>$1</CellFooter>" },
+   ]
+}
