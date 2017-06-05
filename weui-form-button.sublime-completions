@@ -1,0 +1,10 @@
+{
+   "scope": "source.js",
+
+   "completions":
+   [
+      { "trigger": "we-Button", "contents": " <Button type=\"${1:primary}\" size=\"${2:normal}\" disabled={${3:false}}>${4:Button}</Button>" },
+      { "trigger": "we-ButtonArea", "contents": " <ButtonArea direction=\"${1:veritical}\"></ButtonArea>" },
+      { "trigger": "we-PreviewButton", "contents": " <PreviewButton primary={${1:false}}>${2:Action}</PreviewButton>" },
+   ]
+}
