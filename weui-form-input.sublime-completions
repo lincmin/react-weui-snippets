@@ -1,0 +1,17 @@
+{
+   "scope": "source.js",
+
+   "completions":
+   [
+      { "trigger": "we-Radio", "contents": " <Radio name=\"$1\" value=\"$2\" defaultChecked={${3:true}} /> " },
+      { "trigger": "we-Checkbox", "contents": " <Checkbox name=\"$1\" value=\"$2\" defaultChecked={${3:true}} /> " },
+      { "trigger": "we-Switch", "contents": " <Switch defaultChecked={${1:true}} onClick={this.$2.bind(this)} /> " },
+      { "trigger": "we-Label", "contents": " <Label>$1</Label> /> " },
+      { "trigger": "we-Input", "contents": " <Input type=\"${1:text}\" name=\"$2\" placeholder=\"$3\" defaultValue=\"$4\" onChange={$5} /> " },
+      { "trigger": "we-Select", "contents": " <Select defaultValue=\"$1\">\n<option value=\"$2\"> $3 </option>\n</Select> /> " },
+      { "trigger": "we-Agreement", "contents": " <Agreement>\n&nbsp;&nbsp;$1 <a href=\"javascript:;\">$2</a>\n</Agreement> " },
+      { "trigger": "we-TextArea", "contents": " <TextArea placeholder=\"$1\" rows=\"$2\" maxlength=\"$3\">$4</TextArea> " },
+      
+      
+   ]
+}
