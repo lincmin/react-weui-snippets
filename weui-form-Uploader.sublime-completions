@@ -1,0 +1,8 @@
+{
+   "scope": "source.js",
+
+   "completions":
+   [
+      { "trigger": "we-Uploader", "contents": " <Uploader title=\"$1\" maxCount={$2} files={$3} onError={$4} onChange={$5} onFileClick={$6} lang={$7} /> " },
+   ]
+}

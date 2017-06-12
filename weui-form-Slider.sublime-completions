@@ -1,0 +1,8 @@
+{
+   "scope": "source.js",
+
+   "completions":
+   [
+      { "trigger": "we-Slider", "contents": " <Slider min={$1} max={$2} step={$3} onChange={$4} value={$5} defaultValue={$6} disabled={${7:false}} snapToValue={${8:true}} showValue={${9:true}}/> " },
+   ]
+}
