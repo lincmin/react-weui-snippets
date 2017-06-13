@@ -1,0 +1,9 @@
+{
+   "scope": "source.js",
+
+   "completions":
+   [
+      { "trigger": "we-Form", "contents": " <Form>$1</Form> " },
+      { "trigger": "we-FormCell", "contents": " <FormCell>$1</FormCell> " },
+   ]
+}
