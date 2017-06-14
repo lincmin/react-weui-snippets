@@ -1,0 +1,30 @@
+{
+   "scope": "source.js",
+
+   "completions":
+   [
+      { "trigger": "we-Article", "contents": " <<Article>>$1</<Article>> " },
+      { "trigger": "we-Badge", "contents": " <Badge preset=\"${1:header}\" dot={${2:false}}>$3</Badge> " },
+      { "trigger": "we-Flex", "contents": " <Flex>$1</Flex> " },
+      { "trigger": "we-FlexItem", "contents": " <FlexItem>$1</FlexItem> " },
+      { "trigger": "we-Footer", "contents": " <Footer>$1</Footer> " },
+      { "trigger": "we-FooterText", "contents": " <FooterText>$1</FooterText> " },
+      { "trigger": "we-FooterLinks", "contents": " <FooterLinks>$1</FooterLinks> " },
+      { "trigger": "we-FooterLink", "contents": " <FooterLink>$1</FooterLink> " },
+      { "trigger": "we-Gallery", "contents": " <Gallery src={$1} show>$2</Gallery>  " },
+      { "trigger": "we-GalleryDelete", "contents": " <GalleryDelete onClick={$1} /> " },
+      { "trigger": "we-Grids", "contents": " <Grids data={$1}/> " },
+      { "trigger": "we-IconBox", "contents": " <IconBox icon={$1} title=\"$2\" desc=\"$3\" /> " },
+      { "trigger": "we-Icon", "contents": " <Icon size=\"${1:small}\" value=\"${2:success}\" /> " },
+      { "trigger": "we-LoadMore", "contents": " <LoadMore loading={${1:true}} showLine={${2:false}} showDot={${3:false}}>$4</LoadMore> " },
+      { "trigger": "we-Panel", "contents": " <Panel access={${1:false}}>$2</Panel> " },
+      { "trigger": "we-PanelHeader", "contents": " <PanelHeader> $1</PanelHeader> " },
+      { "trigger": "we-PanelBody", "contents": " <PanelBody> $1</PanelBody> " },
+      { "trigger": "we-PanelFooter", "contents": " <PanelFooter> $1</PanelFooter> " },
+      { "trigger": "we-Preview", "contents": " <Preview> $1</Preview> " },
+      { "trigger": "we-PreviewHeader", "contents": " <PreviewHeader> $1</PreviewHeader> " },
+      { "trigger": "we-PreviewItem", "contents": " <PreviewItem label=\"$1\" value=\"$2\" /> " },
+      { "trigger": "we-PreviewFooter", "contents": "<PreviewFooter>$1</PreviewFooter> " },
+      { "trigger": "we-Progress", "contents": "<Progress value={$1} showCancel={${2:true}} onClick={$3} /> " },
+   ]
+}
