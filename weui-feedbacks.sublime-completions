@@ -1,0 +1,16 @@
+{
+   "scope": "source.js",
+
+   "completions":
+   [
+      { "trigger": "we-ActionSheet", "contents": " <ActionSheet menus={$1} actions={$2} show={$3} type=\"$4\" onRequestClose={$5} /> " },
+      { "trigger": "we-Dialog", "contents": " <Dialog title={$1} buttons={$2} show={$3} autoDectect={${4:true}} type=\"$5\"> $6</Dialog> " },
+      { "trigger": "we-Msg", "contents": " <Msg type=\"${1:success}\" title=\"$2\" description=\"$3\" buttons={[{ type: '${4:primary}', label: '${5:OK}', onClick: props.history ? props.history.goBack : false }, { type: '${6:default}', label: '${7:Cancel}', onClick: props.history ? props.history.goBack : false }]} footer={$8} /> " },
+      { "trigger": "we-Toast", "contents": " <Toast icon=\"${1:success-no-circle}\" show={$2} iconSize=\"$3\">$4</Toast> " },
+      { "trigger": "we-Toptips", "contents": " <Toptips type=\"${1:primary}\" show={$2}> ${3:Success submited!} </Toptips> " },
+      { "trigger": "we-Popup", "contents": " <Popup show={$1} onRequestClose={$2} >$3</Popup> " },
+      { "trigger": "we-PopupHeader", "contents": " <PopupHeader left=\"${1:Cancel}\" right=\"${2:Ok}\" leftOnClick={$3} rightOnClick={$4} /> " },
+      { "trigger": "we-PullToRefresh", "contents": " <PullToRefresh height=\"${1:100%}\" loaderDefaultIcon={$2} loaderHeight={$3} loaderLoadingIcon={$4} onRefresh={$5}/>$6</PullToRefresh> " },
+      { "trigger": "we-InfiniteLoader", "contents": " <InfiniteLoader height=\"${1:100%}\" loaderDefaultIcon={$2} loaderHeight={$3} loaderLoadingIcon={$4} onRefresh={$5}/>$6</InfiniteLoader> " },
+   ]
+}
