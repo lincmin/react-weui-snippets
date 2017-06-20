@@ -1,0 +1,12 @@
+{
+   "scope": "source.js",
+
+   "completions":
+   [
+      { "trigger": "we-Tab", "contents": " <Tab type=\"${1:navbar}\" defaultIndex={${2:0}} onChange={$3}>$4</Tab> " },
+      { "trigger": "we-TabBody", "contents": " <TabBody>$1</TabBody> " },
+      { "trigger": "we-TabBarItem", "contents": " <TabBarItem label=\"$1\" active={$2} onClick={$3} icon={$4}/> " },
+      { "trigger": "we-NavBar", "contents": " <NavBar label=\"$1\">$2</NavBar> " },
+      { "trigger": "we-NavBarItem", "contents": " <NavBarItem label=\"$1\" active={$2} onClick={$3}>$4</NavBarItem> " },
+   ]
+}
