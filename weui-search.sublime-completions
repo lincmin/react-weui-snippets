@@ -1,0 +1,8 @@
+{
+   "scope": "source.js",
+
+   "completions":
+   [
+      { "trigger": "we-SearchBar", "contents": " <SearchBar onChange={${1:this.handleChange.bind(this)}} placeholder=\"${2:Search}\" lang={{cancel: '${3:Cancel}'}} autocomplete=\"${4:off}\" onCancel={$5} onClear={$6} />" },
+   ]
+}
